@@ -180,7 +180,7 @@
   </edmx:Reference>
   <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Port_v1.xml">
     <edmx:Include Namespace="Port"/>
-    <edmx:Include Namespace="Port.v1_6_!"/>
+    <edmx:Include Namespace="Port.v1_6_2"/>
   </edmx:Reference>
   <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/PortCollection_v1.xml">
     <edmx:Include Namespace="PortCollection"/>
@@ -246,6 +246,10 @@
   <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/SessionService_v1.xml">
     <edmx:Include Namespace="SessionService"/>
     <edmx:Include Namespace="SessionService.v1_1_8"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/ErrorInjectionService_v1.xml">
+    <edmx:Include Namespace="ErrorInjectionService"/>
+    <edmx:Include Namespace="ErrorInjectionService.v1_0_0"/>
   </edmx:Reference>
   <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Settings_v1.xml">
     <edmx:Include Namespace="Settings.v1_3_5"/>

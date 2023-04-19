@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/ErrorInjectionService/MemoryErrors/DIMM/1/InjectPoisonErrorActionInfo",
+    "@odata.type": "#ActionInfo.v1_3_0.ActionInfo",
+    "Id": "1",
+    "Name": "DIMM/1/InjectPoisonErrorActionInfo",
+    "Parameters": [
+      {
+        "Name": "Value",
+        "Required": true,
+        "DataType": "Number",
+        "MinimumValue": 0,
+        "MaximumValue": 4294967296
+      }
+    ]
+  }

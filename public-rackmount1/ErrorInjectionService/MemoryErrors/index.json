@@ -1,0 +1,11 @@
+{
+    "@odata.type": "#ErrorInjectionMemoryCollection.MemoryErrorInjectionDeviceTypes",
+    "Id": "MemoryErrorInjection",
+    "Name": "Memory Error Injection Landing",
+    "DIMM": {
+        "@odata.id": "/redfish/v1/ErrorInjectionService/MemoryErrors/DIMM"
+    },
+
+    "@odata.id": "/redfish/v1/ErrorInjectionService/MemoryErrors",
+    "@Redfish.Copyright": "Copyright 2014-2022 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

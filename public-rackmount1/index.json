@@ -32,6 +32,9 @@
     "SessionService": {
         "@odata.id": "/redfish/v1/SessionService"
     },
+    "ErrorInjectionService": {
+        "@odata.id": "/redfish/v1/ErrorInjectionService"
+    },
     "AccountService": {
         "@odata.id": "/redfish/v1/AccountService"
     },

@@ -1,0 +1,24 @@
+{
+  "@odata.id": "/redfish/v1/ErrorInjectionService/MemoryErrors/DIMM/1",
+  "@odata.type": "#ErrorInjectionMemoryCollection.MemoryErrorInjector",
+  "Id": "1",
+  "Name": "Memory Injector",
+  "Description": "Inject memory Errors.",
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Systems/437XR1138R2/Memory/DIMM1"
+    }
+  ],
+  "Actions": {
+    "#ErrorInjectionMemoryCollection.InjectCorrectableEccError": {
+      "target": "/redfish/v1/ErrorInjectionService/MemoryErrors/DIMM/1/Actions/InjectCorrectableEccError",
+      "@Redfish.ActionInfo": "/redfish/v1/ErrorInjectionService/MemoryErrors/DIMM/1/InjectCorrectableEccErrorActionInfo"
+    },
+    "#ErrorInjectionMemoryCollection.InjectPoisonError": {
+        "target": "/redfish/v1/ErrorInjectionService/MemoryErrors/DIMM/1/Actions/InjectPoisonError",
+        "@Redfish.ActionInfo": "/redfish/v1/ErrorInjectionService/MemoryErrors/DIMM/1/InjectPoisonErrorActionInfo"
+    }
+  }
+}
+
+

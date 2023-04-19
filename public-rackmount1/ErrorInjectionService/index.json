@@ -1,0 +1,20 @@
+{
+    "@odata.type": "#ErrorInjectionService.v1_0_0.ErrorInjectionService",
+    "Id": "ErrorInjectionService",
+    "Name": "Error Injection Service",
+    "Description": "Error Injection Service",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "ServiceEnabled": true,
+    "ErrorTriggerTimeout": 30,
+    "MemoryErrors": {
+        "@odata.id": "/redfish/v1/ErrorInjectionService/MemoryErrors"
+    },
+    "PhyLinkErrors": {
+        "@odata.id": "/redfish/v1/ErrorInjectionService/PhyLinkErrors"
+    },
+    "@odata.id": "/redfish/v1/ErrorInjectionService",
+    "@Redfish.Copyright": "Copyright 2014-2022 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

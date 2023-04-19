@@ -1,0 +1,11 @@
+{
+    "@odata.type": "#ErrorInjectionPhyLinkCollection.ErrorInjectorCollection",
+    "Members@odata.count": 1,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/ErrorInjectionService/PhyLinkErrors/PCIe/1"
+        }
+    ],
+    "@odata.id": "/redfish/v1/ErrorInjectionService/PhyLinkErrors/PCIe",
+    "@Redfish.Copyright": "Copyright 2014-2022 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

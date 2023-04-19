@@ -1,0 +1,14 @@
+{
+    "@odata.type": "#ErrorInjectionPhyLinkCollection.PhyLinkErrorInjectionDeviceTypes",
+    "Id": "PhyLinkErrorInjection",
+    "Name": "Physical Link Error Injection Landing",
+    "PCIe": {
+        "@odata.id": "/redfish/v1/ErrorInjectionService/PhyLinkErrors/PCIe"
+    },
+    "USB": {
+        "@odata.id": "/redfish/v1/ErrorInjectionService/PhyLinkErrors/USB"
+    },
+
+    "@odata.id": "/redfish/v1/ErrorInjectionService/PhyLinkErrors",
+    "@Redfish.Copyright": "Copyright 2014-2022 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright."
+}

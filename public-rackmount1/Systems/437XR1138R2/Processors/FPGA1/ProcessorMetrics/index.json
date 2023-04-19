@@ -39,28 +39,6 @@
                     "OccupancyBytes": 198231,
                     "OccupancyPercent": 77.4
                 }
-            ],
-            "CStateResidency": [
-                {
-                    "Level": "C0",
-                    "Residency": 1.13
-                },
-                {
-                    "Level": "C1",
-                    "Residency": 26
-                },
-                {
-                    "Level": "C3",
-                    "Residency": 0.00878
-                },
-                {
-                    "Level": "C6",
-                    "Residency": 0.361
-                },
-                {
-                    "Level": "C7",
-                    "Residency": 72.5
-                }
             ]
         }
     ],

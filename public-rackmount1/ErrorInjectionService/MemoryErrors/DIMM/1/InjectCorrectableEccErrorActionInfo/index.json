@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/ErrorInjectionService/MemoryErrors/DIMM/1/InjectCorrectableEccErrorActionInfo",
+    "@odata.type": "#ActionInfo.v1_3_0.ActionInfo",
+    "Id": "1",
+    "Name": "DIMM/1/InjectCorrectableEccErrorActionInfo",
+    "Parameters": [
+      {
+        "Name": "Address",
+        "Required": true,
+        "DataType": "Number",
+        "MinimumValue": 0,
+        "MaximumValue": 4294967296
+      },
+      {
+        "Name": "BitMask",
+        "Required": true,
+        "DataType": "Number",
+        "MinimumValue": 0,
+        "MaximumValue": 65535
+      }
+    ]
+  }
